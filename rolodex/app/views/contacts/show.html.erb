@@ -1,0 +1,8 @@
+<p><%= link_to "Home", root_path %></p>
+
+<h1><%= @contact.name %></h1>
+
+<ul>
+  <li>Company: <%= @contact.company_name %></li>
+  <li>Email: <%= mail_to @contact.email %></li>
+</ul>
