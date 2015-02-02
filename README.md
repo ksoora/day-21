@@ -2,7 +2,7 @@ Day 21
 =======
 
 Quiz 1: Route Review
-===================
+----
 
 I want the following URLs to be valid in my application. Please write the routes
 that will allow them, along with the Controller class definition
