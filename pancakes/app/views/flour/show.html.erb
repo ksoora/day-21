@@ -1,0 +1,14 @@
+<%= link_to "Home", root_path %>
+
+<h1><%= @pancake.name %></h1>
+
+<h2>Topping: <%= @pancake.topping %></h2>
+
+<% if @pancake.syrup %>
+  <p>Hell yeah we have syrup</p>
+<% else %>
+  <p>Nah, no need for syrup</p>
+<% end %>
+
+
+<%= image_tag @pancake.photo_url %>

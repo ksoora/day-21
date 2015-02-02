@@ -1,0 +1,12 @@
+Index
+
+
+<ul>
+  <% @pancakes.each do |pancake| %>
+    <li>
+
+      <%= link_to pancake.name, pancake %><br/>
+      <%= image_tag pancake.photo_url, class: "thumb" %>
+    </li>
+  <% end %>
+</ul>
