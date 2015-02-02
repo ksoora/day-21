@@ -45,3 +45,23 @@ Hard Mode
 1. Add `published_on` to the Post using a migration
 1. Only show pubished posts
 
+
+
+Notes
+-----
+
+From the command line to create the pancake app
+
+```
+rails new pancakes
+cd pancakes
+rake db:create
+rails generate model pancake
+rake db:migrate
+rake db:seed 
+rails g controller Flour
+rails g migration AddPhotoToPancake
+rake db:migrate
+rake db:seed
+rails s
+```
